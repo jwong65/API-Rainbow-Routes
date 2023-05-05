@@ -10,7 +10,7 @@ const app = express()
 // Declare routes that people can visit on the application
 
 // White Page
-app.get('/', function (req:Request, res:Response):void{
+app.get('/', function (req: express.Request, res: express.Response):void{
     res.send(`
         <body style="margin: 0;">
             <div style="border: 1px solid black; height: 10vh; background-color: white;">
